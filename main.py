@@ -1,7 +1,7 @@
 # --- Imports ---
 from typing import TypedDict, Dict, Any
 from langgraph.graph import StateGraph, START, END
-from langchain_community.chat_models import ChatGroq
+from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage
 from fastapi import FastAPI
 from pydantic import BaseModel
